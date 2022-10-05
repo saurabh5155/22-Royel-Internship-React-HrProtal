@@ -1,0 +1,29 @@
+<BrowserRouter>
+  
+    <Header/>
+    <Sidebar/>
+      <Routes>
+        <Route path='/' element={<Login/>}></Route>
+        <Route path="/deshbord" element={<Deshbord />} />
+        {/* roles */}
+        <Route path="/roles" element={<AddRole/>}></Route>
+        <Route path='/listRole' element={<ListRole/>}></Route>
+        <Route path='/updateRole/:id' element={<UpdateRole/>}></Route>
+  
+        {/* user */}
+        <Route path='/signup' element={<User/>}></Route>
+        <Route path='/listuser' element={<ListUser/>}></Route>
+        <Route path='/updateUser/:id' element={<UpdateUser/>}></Route>
+  
+        {/* UserDetail */}
+        <Route path='/addUserDetail' element={<AddUserDetail/>}></Route>
+        <Route path='/listUserDetail' element={<ListUserDetail/>}></Route>
+        <Route path='/listUserDetail/updateUserDetail/:id' element={<UpdateUserDetail/>}></Route>
+  
+        {/* Address */}
+        <Route path='/addAddress' element={<AddAddress/>}></Route>
+        <Route path='/listUserAddress' element={<ListAddress/>}></Route>
+        <Route path='/listUserAddress/updateUserAddress/:id' element={<UpdateAddress/>}></Route>
+  
+      </Routes>
+    </BrowserRouter>

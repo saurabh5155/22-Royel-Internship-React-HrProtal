@@ -1,0 +1,9 @@
+<div className="authincation h-100">
+                <div className="container h-100">
+                    <div className="row justify-content-center h-100 align-items-center">
+                        <div className="col-md-6">
+                            <div className="authincation-content" style={{ marginTop: "75px" }}>
+                                <div className="row no-gutters">
+                                    <div className="col-xl-12" style={{backgroundColor:'#DCD0FF'}}>
+                                        <div className="auth-form">
+										
